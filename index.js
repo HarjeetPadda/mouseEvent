@@ -4,8 +4,8 @@ function alertMessage() {
     const mainDiv = document.getElementById("mainDiv");
     const magicDiv = document.createElement("div");
     magicDiv.style.position = "absolute";
-    magicDiv.style.top = e.clientY + "px";
-    magicDiv.style.left = e.clientX + "px";
+    magicDiv.style.top = e.clientY - 25 + "px";
+    magicDiv.style.left = e.clientX - 25 + "px";
     magicDiv.style.width = "50px";
     magicDiv.style.height = "50px";
     magicDiv.style.backgroundColor = "blue";
